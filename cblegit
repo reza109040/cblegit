@@ -68,7 +68,7 @@ name.BackgroundTransparency = 1.000
 name.Position = UDim2.new(0.0226537213, 0, 0.0303030312, 0)
 name.Size = UDim2.new(0.249190941, 0, 1, 0)
 name.Font = Enum.Font.Code
-name.Text = "Mercury.cc"
+name.Text = "REXA"
 name.TextColor3 = Color3.fromRGB(174, 174, 174)
 name.TextSize = 16.000
 name.TextStrokeTransparency = 0.000
@@ -267,7 +267,7 @@ togglebutton.Text = ""
 togglebutton.TextColor3 = Color3.fromRGB(0, 0, 0)
 togglebutton.TextSize = 14.000
 togglebutton.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/reza109040/cblegit/main/cblegit", true))()
 	game.CoreGui.loader:Destroy()
 end)
 
